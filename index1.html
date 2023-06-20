@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<h1 style="text-align: center; color: blue; text-decoration: underline; text-decoration-color: gray;">Student Registration Form Using Table In HTML</h1>	
+	<form action="">
+		<table>
+			<tr>
+				<td><label for="name">Name</label></td>
+				<td><input type="text" id="name" name="name" placeholder="Poxos" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td><label for="lastName">Last Name</label></td>
+				<td><input type="text" id="lastName" name="lastName" placeholder="Poxosyan" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td><label for="email">Email ID</label></td>
+				<td><input type="email" id="email" name="email" placeholder="poxospoxosyan@gmail.com"></td>
+			</tr>
+			<tr>
+				<td><label for="tel">Mobile Number</label></td>
+				<td><input type="tel" id="tel" name="tel" placeholder="(374)XX--XX--XX--XX" maxlength="10"></td>
+			</tr>
+			<tr>
+				<td><label>Gender</label></td>
+				<td>
+					<input type="radio" id="male" name="gender">
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="gender">
+					<label for="female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Date of Birth:</label></td>
+				<td>
+					<input type="number" id="day" name="day" placeholder="Day" min="1" max="31">						
+					<input type="number" id="month" name="month" placeholder="Month" min="1" max="12">
+					<input type="number" id="year" name="year" placeholder="Year" min="1900" max="2023">
+				</td>
+			</tr>
+			<tr>
+				<td><label for="address">Address</label></td>
+				<td><input type="text" id="address" name="address" size="40" style="height: 130px;"></td>
+			</tr>
+			<tr>
+				<td><label for="city">City</label></td>
+				<td><input type="text" id="city" name="city" placeholder="Bangalore" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td><label for="code">Pin Code</label></td>
+				<td><input type="text" id="code" name="code" placeholder="560022" maxlength="6"></td>
+			</tr>
+			<tr>
+				<td><label for="state">State</label></td>
+				<td><input type="text" id="state" name="state" placeholder="Karntaka" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td><label for="country">Country</label></td>
+				<td><input type="text" id="country" name="country" placeholder="Georgia"></td>
+			</tr>
+			<tr>
+				<td><label for="name">Hobbies</label></td>
+				<td>
+					<input type="checkbox" id="hobby1" name="hobbies">
+					<label for="hobby1">Drawing</label>						
+					<input type="checkbox" id="hobby2" name="hobbies">
+					<label for="hobby2">Singing</label>						
+					<input type="checkbox" id="hobby3" name="hobbies">
+					<label for="hobby3">Dancing</label>
+					<input type="checkbox" id="hobby4" name="hobbies">
+					<label for="hobby4">Sketching</label>
+					<input type="checkbox" id="hobby5" name="hobbies">
+					<label for="hobby5">Others</label>
+					<input type="text" placeholder="Ex. Teaching" maxlength="50">
+					</td>
+			</tr>
+			<tr>
+				<td><label for="name">Qualification</label></td>
+				<td>
+					<input type="checkbox" id="qual1" name="qual">
+					<label for="qual1">High School(10th)</label><br>
+					<input type="checkbox" id="qual2" name="qual">
+					<label for="qual2">Higher School(12th)</label><br>
+					<input type="checkbox" id="qual3" name="qual">
+					<label for="qual3">Graduation(Bachelors)</label><br>
+					<input type="checkbox" id="qual4" name="qual">
+					<label for="qual4">Post Graduation(Masters)</label><br>
+					<input type="checkbox" id="qual5" name="qual">
+					<label for="qual5">Phd</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="course">Courses Applied For</label></td>
+					<td>
+					<input type="radio" id="course1" name="course">
+					<label for="course1">BCA(Bachelor of Computer Applications)</label><br>
+					<input type="radio" id="course2" name="course">
+					<label for="course2">B.Com(Bachelor of Commerce)</label><br>
+					<input type="radio" id="course3" name="course">
+					<label for="course3">B.Sc(Bachelor of Science)</label><br>
+					<input type="radio" id="course4" name="course">
+					<label for="course4">BA(Bachelor of Arts)</label><br>
+					<input type="radio" id="course5" name="course">
+					<label for="course5">MCA(Master of Computer Applications)</label><br>
+					<input type="radio" id="course6" name="course">
+					<label for="course6">M.Com(Master of Commerce)</label><br>
+					<input type="radio" id="course7" name="course">
+					<label for="course7">M.Sc(Master of Science)</label><br>
+					<input type="radio" id="course8" name="course">
+					<label for="course8">MA(Master of Arts)</label>
+				</td>					
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
